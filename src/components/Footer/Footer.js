@@ -1,37 +1,47 @@
 
+import React from "react";
+import afri from '../../assets/images/afri.png';
+import mavin from '../../assets/images/mavin.png';
+import piggy from '../../assets/images/piggy.png';
+import naija from '../../assets/images/naija.png';
+import swalo from '../../assets/images/swalo.png';
+import { FaInstagram, FaFacebookSquare, FaTwitter } from 'react-icons/fa'
+
 
 const Footer = () => {
     return (
 
         <>
-            <div className="mx-32">
+            <div className="">
             
-            <h1 className="font-bold text-center text-2xl py-16">Our Customers Work In:</h1>
+            <div className="py-16">
+            <h1 className="font-bold text-center text-2xl  mx-32">Our Top Customers Work In:</h1>
+            </div>
 
-                    <div className="flex justify-between">
+                    <div className="flex justify-between mx-32 py-16">
 
                             <div>
-                                    <img src="" alt="afri logo" height={20} width={100}/>
+                            <img className='' src={afri} alt='screen' />
                             </div>
 
                             <div>
-                            <img src="" alt="" height={20} width={100}/>
+                            <img className='' src={mavin} alt='screen' />
                     </div>
                     
 
                     <div>
-                    <img src="" alt="" height={20} width={100}/>
-                </div>
+                    <img className='' src={piggy} alt='screen' />
+                    </div>
 
 
                 <div>
-                <img src="" alt="" height={20} width={100}/>
+                <img className='' src={naija} alt='screen' />
                 </div>
 
             </div>
 
                 {/** second part */}
-                <div className="py-16">
+                <div className="py-16 bg-neutral-100 px-32">
                     <h1 className="text-orange-400 text-center font-bold text-2xl mb-4">Explore delivery in Lagos</h1>
 
 
@@ -75,18 +85,32 @@ const Footer = () => {
                 </div>
 
                 <div className="flex mx-32">
-                <p className="border bg-orange-100 text-orange-400 rounded-full px-3 ml-2">Ajah</p>
-                <p className="border bg-orange-100 text-orange-400 rounded-full px-3 ml-2">Sangotedo</p>
-                <p className="border bg-orange-100 text-orange-400 rounded-full px-3 ml-2">Ikotun</p>
+                <p className="border bg-orange-100 text-orange-400 rounded-full px-3 ml-3">Ajah</p>
+                <p className="border bg-orange-100 text-orange-400 rounded-full px-3 ml-3">Sangotedo</p>
+                <p className="border bg-orange-100 text-orange-400 rounded-full px-3 ml-3">Ikotun</p>
                 </div>
 
                 </div>
 
                 {/** third part */}
 
-                <div className="flex justify-between py-16">
+                <div className="flex justify-between py-16 mx-32">
                     <div>
-                        <img src="" alt="" width={30} height={30} />
+                    <img className='' src={swalo} alt='screen' />
+
+                    <div className="flex">
+                        <a className="text-2xl" href="">
+                            <FaInstagram />
+                        </a>
+
+                        <a className="ml-4 text-2xl" href="">
+                            <FaFacebookSquare />
+                        </a>
+
+                        <a className="ml-4 text-2xl" href="">
+                            <FaTwitter />
+                        </a>
+                    </div>
                     </div>
 
                     <div className="flex">
