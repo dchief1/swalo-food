@@ -85,9 +85,9 @@ const Footer = () => {
                 </div>
 
                 <div className="flex mx-32">
-                <p className="border bg-orange-100 text-orange-400 rounded-full px-3 ml-2">Ajah</p>
-                <p className="border bg-orange-100 text-orange-400 rounded-full px-3 ml-2">Sangotedo</p>
-                <p className="border bg-orange-100 text-orange-400 rounded-full px-3 ml-2">Ikotun</p>
+                <p className="border bg-orange-100 text-orange-400 rounded-full px-3 ml-3">Ajah</p>
+                <p className="border bg-orange-100 text-orange-400 rounded-full px-3 ml-3">Sangotedo</p>
+                <p className="border bg-orange-100 text-orange-400 rounded-full px-3 ml-3">Ikotun</p>
                 </div>
 
                 </div>
