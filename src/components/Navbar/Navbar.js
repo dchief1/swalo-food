@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { CgMenuLeft, CgClose } from "react-icons/cg";
 import { Link } from 'react-router-dom'
+import swalo from '../../assets/images/swalo.png'
 
 const Navbar = () => {
     
@@ -14,9 +15,9 @@ const Navbar = () => {
 
     
     
-    <nav className='cursor-pointer px-4 py-4 w-full md:grid md:place-items-center text-2xl text-gray-600'>
-       <h1 className='md:pb-4'>Swalo</h1>
-      <ul className='md:flex md:items-center md:pb-0 absolute  md:static md:w-auto md:pl-0 hidden gap-4 md:my-0  md:ml-8 '>
+    <nav className='max-w-96 px-4 py-4 w-full md:grid md:place-items-center text-2xl text-gray-600'>
+      <img className='cursor-pointer' src={swalo} alt='screen' />
+      <ul className='md:flex md:items-center md:pb-0 cursor-pointer absolute  md:static  md:pl-0 hidden gap-20 md:my-0  md:ml-8 '>
         <li className='text-xl text-gray-800 hover:text-gray-400 duration-500'><Link to='/'>Home</Link></li>
         <li className='text-xl text-gray-800 hover:text-gray-400 duration-500'><Link to='/'>Swalo Eats</Link></li>
         <li className='text-xl text-gray-800 hover:text-gray-400 duration-500'><Link to='/'>Food Routine</Link></li>

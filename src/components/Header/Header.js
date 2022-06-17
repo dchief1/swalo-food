@@ -21,7 +21,7 @@ const Header = () => {
   
 
   return (
-    <div className='grid place-items-center h-screen bg-orange-50'>
+    <div className='grid place-items-center h-screen w-full bg-orange-50 bg-cover'>
         <Navbar />
 
         <div className='font-bold md:text-6xl md:leading-lh'>
@@ -54,9 +54,10 @@ const Header = () => {
           {
           show===1&& <h1 >Let's check this </h1> 
           }
-          
 
         </div>
+
+        <button className="border p-3 rounded-lg bg-orange-400   text-white">Place your order</button>
         
     </div>
   )
