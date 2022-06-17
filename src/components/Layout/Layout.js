@@ -1,15 +1,16 @@
 import React from 'react'
+import Content from '../Content/Content'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
+import Scroll from '../Scroll/Scroll'
 
 
 const Layout = () => {
   return (
-    <div>
-
-      <div className='bg-orange-50'>
+    <div className=''>
         <Header />
-      </div>
+        <Content />
+        <Scroll />
         <Footer />
     </div>
   )

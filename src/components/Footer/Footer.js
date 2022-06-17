@@ -14,11 +14,12 @@ const Footer = () => {
         <>
             <div className="">
             
-            <div className="">
+
             <h1 className="font-bold text-center text-2xl  mx-32">Our Top Customers Work In:</h1>
             </div>
 
                     <div className="flex justify-between px-8 md:mx-32 py-16">
+
 
                             <div>
                             <img className='' src={afri} alt='screen' />
@@ -42,6 +43,7 @@ const Footer = () => {
 
                 {/** second part */}
                 <div className="py-16 bg-neutral-100 px-6 md:px-32">
+
                     <h1 className="text-orange-400 text-center font-bold text-2xl mb-4">Explore delivery in Lagos</h1>
 
 
@@ -88,15 +90,18 @@ const Footer = () => {
                 <p className="border bg-orange-100 text-orange-400 rounded-full px-3 ml-3">Sangotedo</p>
                 <p className="border bg-orange-100 text-orange-400 rounded-full px-3 ml-3">Ikotun</p>
                 <p className="border bg-orange-100 text-orange-400 rounded-full px-3 ml-3">Abule Egba</p>
+
                 </div>
 
                 </div>
 
                 {/** third part */}
 
+
                 <div className="flex justify-between py-16 px-6 md:mx-32">
                     <div>
                     <img className='w-64' src={swalo} alt='screen' />
+
 
                     <div className="flex">
                         <a className="text-2xl" href="">
