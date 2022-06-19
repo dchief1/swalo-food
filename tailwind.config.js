@@ -49,6 +49,7 @@ module.exports = {
         'brdw1': '212px',
         'subw': '819px',
         'imw': '619px',
+        'mdw': '500px',
       },
       maxWidth: {
         '3.5xl': '800px',
@@ -83,6 +84,7 @@ module.exports = {
       margin: {
         'fm': '644px',
         'bm': '124px',
+        'txm': '424px',
       },
       backgroundColor: {
         'grtext': '#4D4D4D', 

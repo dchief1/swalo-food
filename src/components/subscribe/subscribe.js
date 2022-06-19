@@ -9,11 +9,11 @@ import vector3a from '../../assets/images/Vector3a.png'
 
 const suscribe = () => {
   return (
-    <div className=' max-w-screen h-screen bg-white'>
+    <div className=' max-w-screen h-full bg-white'>
 
     <div className='relative'>
-      <img src={fruit} alt='fruit' className='h-32 w-imw ml-fm absolute' />
-      <div className='inset-0 absolute bg-gradient-to-r from-orange via-orange to-light-orng  w-full h-32'>
+      <img src={fruit} alt='fruit' className='md:h-32 h-24 md:w-imw md:ml-fm absolute' />
+      <div className='inset-0 absolute bg-gradient-to-r from-orange via-orange  to-light-orng w-screen h-24 md:w-full md:h-32'>
         <div className='flex justify-between items-center mx-12'>
           <span className='text-white mt-6 text-lg w-subw h-subh'>Subscribe to Swalo Eats Monthly FoodROUTINE 
            <br/>for as low as N35,000.00</span>
@@ -23,9 +23,9 @@ const suscribe = () => {
 
       </div>
 
-      <div className=' pt-52 flex justify-between items-center mx-16'>
+      <div className='flex-col lg:flex-row pt-52 flex justify-between items-center mx-16'>
   {/**<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< First Card Begins >>>>>>>>>>>>>>>>>>>>>>>>>> */}
-        <div className='bg-ic1bg p-3 w-64 h-ic-card grid place-items-center rounded-md shadow-xl'>
+        <div className='bg-ic1bg p-3 w-64 h-ic-card mb-6 grid place-items-center rounded-md shadow-xl'>
           <img src={vector1} alt='vector' className='h-20  w-20' />
           <h1 className='font-bold text-ic1-text text-2xl'>Individuals</h1>
           <span className='font-medium md:mt-2 text-sm text-ic1-text text-center md:w-68'>Our team of Nutrionist will work with you
@@ -38,7 +38,7 @@ const suscribe = () => {
   {/**<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< First Card Ends >>>>>>>>>>>>>>>>>>>>>>>>>> */}
 
   {/**<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Second Card Begins >>>>>>>>>>>>>>>>>>>>>>>>>> */}
-        <div className='bg-ic2bg p-3 w-64 h-ic-card grid place-items-center rounded-md shadow-xl'>
+        <div className='bg-ic2bg p-3 w-64 mb-6 h-ic-card grid place-items-center rounded-md shadow-xl'>
           <img src={vector2} alt='vector' className='h-20 w-20' />
           <h1 className='font-bold text-ic2-text text-2xl'>Family Plan</h1>
           <span className='font-medium md:mt-2 text-sm text-ic2-text text-center md:w-68'>
@@ -50,7 +50,7 @@ const suscribe = () => {
   {/**<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Second Card Ends >>>>>>>>>>>>>>>>>>>>>>>>>> */}
 
   {/**<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Third Card Begins >>>>>>>>>>>>>>>>>>>>>>>>>> */}
-        <div className='bg-ic3bg p-3 h-ic-card w-64 grid place-items-center rounded-md shadow-xl'>
+        <div className='bg-ic3bg p-3 mb-6 h-ic-card w-64 grid place-items-center rounded-md shadow-xl'>
           <img src={vector3} alt='vector' className='h-20 w-20' />
           <h1 className='font-bold text-ic3-text text-2xl'>Team or Couple </h1>
           <h1 className='font-bold text-ic3-text text-2xl'>Plans </h1>
@@ -64,7 +64,7 @@ const suscribe = () => {
   {/**<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Third Card Ends >>>>>>>>>>>>>>>>>>>>>>>>>> */}
 
   {/**<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Fourth Card Begins >>>>>>>>>>>>>>>>>>>>>>>>>> */}
-        <div className='bg-ic4bg p-3 h-ic-card w-64 grid place-items-center rounded-md shadow-xl'>
+        <div className='bg-ic4bg mb-20 p-3 h-ic-card w-64 grid place-items-center rounded-md shadow-xl'>
           <img src={vector4} alt='vector' className='h-20 w-20' />
           <h1 className='font-bold text-ic4-text text-2xl'>Businesses</h1>
           <span className='font-medium md:mt-2 text-xs text-ic4-text text-center md:w-68'>

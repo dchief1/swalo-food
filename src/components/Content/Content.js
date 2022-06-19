@@ -7,8 +7,8 @@ const Content = () => {
   return (
     <div className='mb-2 max-w-screen bg-white' >
       <div className='md:-mt-20 mx-auto relative'>
-        <img className='z-40 md:ml-64 w-44 h-20 md:w-imgw md:h-imgh absolute  ' src={log1} alt='screen' />
-        <img className=' z-10 md:ml-96 w-44 h-20 md:w-imgw md:h-imgh absolute mt-20 ' src={log2} alt='screen' />
+        <img className=' md:ml-64 w-44 h-20 md:w-imgw md:h-imgh absolute  ' src={log1} alt='screen' />
+        <img className='  md:ml-96 w-44 h-20 md:w-imgw md:h-imgh absolute mt-20 ' src={log2} alt='screen' />
       </div>
 
       <div className='md:pt-72  ml-8'>

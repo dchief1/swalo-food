@@ -12,31 +12,19 @@ const Footer = () => {
     return (
 
         <>
-                <div className="bg-white ">
-                    <div className="max-w-screen mt-20 ">
-                        <h1 className="font-bold text-hero-hd pt-12 text-center text-3xl mt-40 mx-32">Our Top Customers Work In:</h1>
+                <div className="bg-white max-w-screen">
+                    <div className=" mt-20 ">
+                        <h1 className="font-bold text-hero-hd pt-12 w-64 mx-8 text-2xl md:text-3xl 
+                        mt-40 md:ml-txm md:w-mdw">Our Top Customers Work In:</h1>
                     </div>
 
-                    <div className="flex flex-col md:flex-col lg:flex-row justify-between px-8 md:mx-32 py-16">
+                    <div className="flex gap-8 flex-col md:flex-col lg:flex-row justify-between px-12 md:px-8 py-16">
 
-
-                        <div>
-                            <img className='' src={afri} alt='screen' />
-                        </div>
-
-                        <div>
-                            <img className='' src={mavin} alt='screen' />
-                        </div>
-                    
-
-                        <div>
-                            <img className='' src={piggy} alt='screen' />
-                        </div>
-
-
-                        <div>
-                            <img className='' src={naija} alt='screen' />
-                        </div>
+                            <img className='w-52 md:w-60 md:h-20' src={afri} alt='screen' />
+                            <img className='w-52 md:w-32 md:h-24' src={mavin} alt='screen' />
+                            <img className='w-52 md:w-60 md:h-20' src={piggy} alt='screen' />
+                            <img className='w-52 md:w-72 md:h-20' src={naija} alt='screen' />
+                       
 
                     </div>
                 </div>
@@ -103,7 +91,7 @@ const Footer = () => {
                     <img className='md:-ml-8 ml-12 w-44  md:w-64' src={swalo} alt='screen' />
 
 
-                    <div className="flex gap-4 mb-6 md:mb-0">
+                    <div className=" hidden md:flex gap-4 mb-6 md:mb-0">
                         <a className="text-2xl" href="/">
                             <FaInstagram />
                         </a>
@@ -118,7 +106,7 @@ const Footer = () => {
                     </div>
                     </div>
 
-                    <div className="flex flex-col md:flex-col lg:flex-row">
+                    <div className="flex flex-col  md:flex-col lg:flex-row">
 
                         <div className="mr-8">
                         <p className="mb-6 text-lg">Companies</p>
@@ -140,7 +128,7 @@ const Footer = () => {
 
 
                         <div>
-                        <p className="mb-6 text-lg">Companies</p>
+                        <p className="mb-6 text-lg">Other</p>
                         <ul>
                         <li><a href="/" className="text-sm">FAQS</a></li>
                         <li><a href="/" className="text-sm">Blog</a></li>
@@ -149,6 +137,20 @@ const Footer = () => {
                         <li><a href="/" className="text-sm">Privacy Policy</a></li>
                         </ul>   
                         </div> 
+
+                        <div className=" md:hidden flex gap-2 mb-6 mt-4">
+                        <a className="text-2xl" href="/">
+                            <FaInstagram />
+                        </a>
+
+                        <a className="ml-4 text-2xl" href="/">
+                            <FaFacebookSquare />
+                        </a>
+
+                        <a className="ml-4 text-2xl" href="/">
+                            <FaTwitter />
+                        </a>
+                    </div>
                     </div>
                 </div>
 
