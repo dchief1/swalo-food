@@ -1,0 +1,34 @@
+.spin-text:after {
+    content: "";
+    animation: spin 6s linear infinite;
+}
+@keyframes spin {
+    0% {content: "food";}
+    30% {content: "amala";}
+    50% {content: "egwusi";}
+    70% {content: "vegetable";}
+    100% {content: "okazi";}
+    
+}
+/* .bulk {
+    animation: hideAnimation 0s ease-in 8s;
+    animation-fill-mode: forwards;
+}
+@keyframes hideAnimation {
+    to{
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+} */
+/* .bulk {
+    animation: spin2 6s linear infinite ;
+    opacity: 0;
+}
+@keyframes spin2 {
+    0% {opacity: 1;}
+    30% {opacity: 1;}
+    50% {opacity: 1;}
+    70% {opacity: 1;}
+    90% {opacity: 0;}
+} */

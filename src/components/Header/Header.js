@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Navbar from '../Navbar/Navbar'
+import '../Header/Header.css'
 
 const Header = () => {
   const [ show, setShow] = useState(0)
@@ -7,7 +8,7 @@ const Header = () => {
 
   useEffect(() => {
      setTimeout(() => {
-       if(show===3) {
+       if(show===2) {
          setShow(0)
        }
      else if (show<= 3) {
@@ -15,49 +16,37 @@ const Header = () => {
         
       } 
       // setShow(show+1)
-    }, 4000);
+    }, 6000);
     // return () => clearTimeout(timer);
   }, [show]);
   
 
   return (
-    <div className='grid place-items-center h-screen w-full bg-orange-50 bg-cover'>
+    <div className='grid place-items-center h-full max-w-screen bg-lightbg '>
         <Navbar />
 
-        <div className='font-bold md:text-6xl md:leading-lh'>
+        <div className='font-bold text-hero-head md:text-6xl md:leading-lh'>
           {
           show===0&& <h1 >Order your Meal from 
-          <br/> the <span className='bg-yellow-200'>Cloud in 30</span>mins</h1> 
+          <br/> the <span className='bg-yell-brd'>Cloud in 30</span>mins</h1> 
           }
           {
-          show===1&& <h1 >Let's check this </h1> 
+          show===1&& <h1 >Enjoy delicious and 
+          <br/> spicy <span className='spin-text bg-yell-brd'></span> <span className='bulk'>in bulk</span> </h1> 
           }
           {
-          show===2&& <h1 >call me</h1> 
-          }
-          {
-          show===3&& <h1 >we can be friends</h1> 
+          show===2&& <h1 >Automated bulk lunch meals
+          <br /> for employee and business</h1> 
           }
 
         </div>
 
-        <span>
-          Nigeria's leading Cloud based Kitchen powered by Technology 
-          <br />Enjoy Delicious and spicy African Soups in Bulk
+        <span className='mb-8 text-hero-prg'>
+          Nigeria's leading Cloud based Kitchen powered by Technology
+          <br />Get your Special Meal Treat in 24hours for "The Special One"
         </span>
-        
-        <div className='font-bold md:text-6xl md:leading-lh'>
-          {
-          show===0&& <h1 >Order your Meal from 
-          <br/> the <span className='bg-yellow-200'>Cloud in 30</span>mins</h1> 
-          }
-          {
-          show===1&& <h1 >Let's check this </h1> 
-          }
 
-        </div>
-
-        <button className="border p-3 rounded-lg bg-orange-400   text-white">Place your order</button>
+        <button className="border p-3 rounded-md w-52 bg-orange mt-6 mb-40  text-white">Place your order</button>
         
     </div>
   )

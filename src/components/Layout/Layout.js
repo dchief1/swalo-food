@@ -3,15 +3,23 @@ import Content from '../Content/Content'
 import Header from '../Header/Header'
 import Footer from '../Footer/Footer'
 import Scroll from '../Scroll/Scroll'
+import Subscribe from '../subscribe/subscribe'
+import Card from '../Card/Card'
 
 
 const Layout = () => {
   return (
-    <div className=''>
+    <div className='max-w-screen'>
         <Header />
-        <Content />
-        <Scroll />
-        <Footer />
+        <div className='bg-pagebg'>
+          <Content />
+          <Scroll />
+          <Subscribe />
+          <Card />
+          <Footer />
+        </div>
+        
+        
     </div>
   )
 }
