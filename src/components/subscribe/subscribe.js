@@ -23,7 +23,7 @@ const suscribe = () => {
 
       </div>
 
-      <div className='flex-col lg:flex-row pt-52 flex justify-between items-center mx-16'>
+      <div className='flex-col lg:flex-row pt-52 pb-20 flex justify-between items-center mx-16'>
   {/**<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< First Card Begins >>>>>>>>>>>>>>>>>>>>>>>>>> */}
         <div className='bg-ic1bg p-3 w-64 h-ic-card mb-6 grid place-items-center rounded-md shadow-xl'>
           <img src={vector1} alt='vector' className='h-20  w-20' />
@@ -64,7 +64,7 @@ const suscribe = () => {
   {/**<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Third Card Ends >>>>>>>>>>>>>>>>>>>>>>>>>> */}
 
   {/**<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Fourth Card Begins >>>>>>>>>>>>>>>>>>>>>>>>>> */}
-        <div className='bg-ic4bg mb-20 p-3 h-ic-card w-64 grid place-items-center rounded-md shadow-xl'>
+        <div className='bg-ic4bg mb-6 p-3 h-ic-card w-64 grid place-items-center rounded-md shadow-xl'>
           <img src={vector4} alt='vector' className='h-20 w-20' />
           <h1 className='font-bold text-ic4-text text-2xl'>Businesses</h1>
           <span className='font-medium md:mt-2 text-xs text-ic4-text text-center md:w-68'>

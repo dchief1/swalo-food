@@ -12,10 +12,10 @@ const Footer = () => {
     return (
 
         <>
-                <div className="bg-white max-w-screen">
-                    <div className=" mt-20 ">
+                <div className="bg-white max-w-screen  mt-44 ">
+                    <div className="  ">
                         <h1 className="font-bold text-hero-hd pt-12 w-80 mx-8 text-2xl md:text-3xl 
-                        mt-40 md:ml-txm md:w-mdw">Our Top Customers Work In:</h1>
+                        mt-16 md:ml-txm md:w-mdw">Our Top Customers Work In:</h1>
                     </div>
 
                     <div className="flex gap-8 flex-col md:flex-col lg:flex-row justify-between px-20 md:px-8 py-16">
@@ -88,7 +88,7 @@ const Footer = () => {
               <div className="bg-white ">
                 <div className="flex sm:flex-col flex-col lg:flex-row justify-between py-4 md:py-16 px-6 md:mx-32">
                     <div>
-                    <img className='md:-ml-8 ml-12 w-44  md:w-64' src={swalo} alt='screen' />
+                    <img className='md:-ml-8 grid place-items-center w-44  md:w-64' src={swalo} alt='screen' />
 
 
                     <div className=" hidden md:flex gap-4 mb-6 md:mb-0">
@@ -106,9 +106,9 @@ const Footer = () => {
                     </div>
                     </div>
 
-                    <div className="flex flex-col  md:flex-col lg:flex-row">
+                    <div className="flex flex-col ml-8 md:flex-col lg:flex-row">
 
-                        <div className="mr-8">
+                        <div className="md:mr-8">
                         <p className="mb-6 text-lg">Companies</p>
                         <ul>
                         <li><a href="/" className="text-sm">About us</a></li>

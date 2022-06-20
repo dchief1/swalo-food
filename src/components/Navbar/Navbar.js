@@ -15,7 +15,7 @@ const Navbar = () => {
 
     
     
-    <nav className='max-w-[800px] px-4 py-4  md:grid md:place-items-center text-2xl text-gray-600'>
+    <nav className='max-w-[800px] sm:max-w-screen px-4 py-4  md:grid md:place-items-center text-2xl text-gray-600'>
       <img className='cursor-pointer w-44 md:w-72' src={swalo} alt='screen' />
       <ul className='md:flex md:items-center md:pb-0 cursor-pointer absolute  md:static  md:pl-0 hidden gap-20 md:my-0  md:ml-8 '>
         <li className='text-xl text-navbg hover:text-navhover duration-500'><Link to='/'>Home</Link></li>
