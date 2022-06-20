@@ -6,18 +6,18 @@ import food from '../../assets/images/food.png'
 const Content = () => {
   return (
     <div className='mb-2 max-w-screen bg-white' >
-      <div className='md:-mt-20 mx-auto relative'>
-        <img className=' md:ml-64 w-44 h-20 md:w-imgw md:h-imgh absolute  ' src={log1} alt='screen' />
-        <img className='  md:ml-96 w-44 h-20 md:w-imgw md:h-imgh absolute mt-20 ' src={log2} alt='screen' />
+      <div className='md:-mt-20 -mt-16 mx-auto relative'>
+        <img className='z-10 ml-12 md:ml-64 w-52 h-28 md:w-imgw md:h-imgh absolute  ' src={log1} alt='screen' />
+        <img className=' ml-28 md:ml-96 w-52 h-28 md:w-imgw md:h-imgh absolute mt-8 md:mt-20 ' src={log2} alt='screen' />
       </div>
 
-      <div className='md:pt-72  ml-8'>
-        <img src={food} alt='food' className='md:w-aw1 md:h-ah1 md:ml-28 mb-8 top-8' />
-        <img src={food} alt='food' className='md:w-aw2 md:h-ah2 md:ml-60' />
-        <img src={food} alt='food' className='md:w-aw md:h-ah ' />
+      <div className='md:pt-72 pt-24  md:ml-8'>
+        <img src={food} alt='food' className='md:w-[80px] w-[30px] h-[29px] md:h-[79px] ml-12 md:ml-28 mb-8 md:top-8' />
+        <img src={food} alt='food' className='md:w-[60px] w-[20px] h-[19] md:h-[59px] ml-24 md:ml-60' />
+        <img src={food} alt='food' className='md:w-[100px] w-[50px] h-[49px] ml-2 md:h-[99px] ' />
       </div>
 
-      <div className='grid place-items-center  -mt-32'>
+      <div className='grid place-items-center  md:-mt-32'>
         <h1 className='text-2xl font-semibold text-sec-parg'>why swallow Eats?</h1>
         <span className='border-2 mt-2 border-orange w-brdw '></span>
         <p className='w-txtw h-txth text-center text-hero-head mt-6'>We are a Kitchen-as-a-Service company helping you

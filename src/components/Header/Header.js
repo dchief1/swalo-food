@@ -41,12 +41,12 @@ const Header = () => {
 
         </div>
 
-        <span className='mb-8 text-lg xsm:w-64 text-hero-prg'>
+        <span className='mb-8 text-sm w-[260px] mt-2 md:mt-0 md:w-[420px]  text-hero-prg'>
           Nigeria's leading Cloud based Kitchen powered by Technology
           <br />Get your Special Meal Treat in 24hours for "The Special One"
         </span>
 
-        <button className="border p-3 rounded-md w-52 bg-orange mt-6 mb-40  text-white">Place your order</button>
+        <button className="border p-3 rounded-md w-40 md:w-52 bg-orange mt-4 md:mt-6 mb-40  text-white">Place your order</button>
         
     </div>
   )

@@ -14,11 +14,11 @@ const Footer = () => {
         <>
                 <div className="bg-white max-w-screen">
                     <div className=" mt-20 ">
-                        <h1 className="font-bold text-hero-hd pt-12 w-64 mx-8 text-2xl md:text-3xl 
+                        <h1 className="font-bold text-hero-hd pt-12 w-80 mx-8 text-2xl md:text-3xl 
                         mt-40 md:ml-txm md:w-mdw">Our Top Customers Work In:</h1>
                     </div>
 
-                    <div className="flex gap-8 flex-col md:flex-col lg:flex-row justify-between px-12 md:px-8 py-16">
+                    <div className="flex gap-8 flex-col md:flex-col lg:flex-row justify-between px-20 md:px-8 py-16">
 
                             <img className='w-52 md:w-60 md:h-20' src={afri} alt='screen' />
                             <img className='w-52 md:w-32 md:h-24' src={mavin} alt='screen' />
@@ -32,7 +32,7 @@ const Footer = () => {
                 {/** second part */}
                 <div className="py-16 bg-neutral-100 px-6 md:px-32">
 
-                    <h1 className="text-orange text-center font-bold text-3xl mb-4">Explore delivery in Lagos</h1>
+                    <h1 className="text-orange text-center font-bold text-xl md:text-3xl mb-4">Explore delivery in Lagos</h1>
 
 
                     <div className="flex mb-6">
@@ -42,12 +42,12 @@ const Footer = () => {
                     name="search"
                     type="search"
                     autoComplete="email"
-                    required
-                    className='w-5/6 h-10 ml-4 p-6 border rounded-lg'
+                    required 
+                    className='md:w-5/6 h-8 md:h-10 md:ml-4 p-6 border rounded-lg'
                     placeholder="search anywhere in lagos"
                 />
 
-                <button className="border p-3 rounded-lg bg-orange ml-4 w-32 text-white">Explore</button>
+                <button className="border p-3 rounded-lg bg-orange w-38 ml-4 md:w-32 text-white">Explore</button>
 
                 </div>
 
