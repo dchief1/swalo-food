@@ -30,12 +30,12 @@ const Footer = () => {
                 </div>
 
                 {/** second part */}
-                <div className="py-16 bg-neutral-100 px-6 md:px-32">
+                <div className="py-16  mx-4 md:px-32">
 
                     <h1 className="text-orange text-center font-bold text-xl md:text-3xl mb-4">Explore delivery in Lagos</h1>
 
-
-                    <div className="flex mb-6">
+                 
+                    <div className="flex  mb-6">
                     <input
                     onChange=''
                     id="search"
@@ -43,17 +43,16 @@ const Footer = () => {
                     type="search"
                     autoComplete="email"
                     required 
-                    className='md:w-5/6 h-8 md:h-10 md:ml-4 p-6 border rounded-lg'
+                    className='md:w-5/6 w-[420px] h-8 md:h-10 md:ml-4 p-6 border rounded-lg'
                     placeholder="search anywhere in lagos"
                 />
 
-                <button className="border p-3 rounded-lg bg-orange w-38 ml-4 md:w-32 text-white">Explore</button>
-
-                </div>
-
+                <button className="border hidden md:block  p-3 rounded-lg bg-orange w-38 ml-4 md:w-32 text-white">Explore</button>
+             </div>
 
 
-                  <div className='flex justify-between md:mx-32 mb-2'>
+
+                  <div className='sm:flex justify-between hidden md:mx-32 mb-2'>
                     <p className="border bg-orange-lh text-orange rounded-full px-3 ">lekki</p>
                     <p className="border bg-orange-lh text-orange rounded-full px-3 ">Ikeja</p>
                     <p className="border bg-orange-lh text-orange rounded-full px-3 ">Egbeda</p>
@@ -63,7 +62,7 @@ const Footer = () => {
                     <p className="border bg-orange-lh text-orange rounded-full px-3 ">surulere</p>
                   </div>
 
-                  <div className='flex justify-between md:mx-32 mb-2'>
+                  <div className='sm:flex hidden justify-between md:mx-32 mb-2'>
                   <p className="border bg-orange-lh text-orange rounded-full px-3 ">MaryLand</p>
                   <p className="border bg-orange-lh text-orange rounded-full px-3 ">Festac</p>
                   <p className="border bg-orange-lh text-orange rounded-full px-3 ">Apapa</p>
@@ -73,7 +72,7 @@ const Footer = () => {
                   <p className="border bg-orange-lh text-orange rounded-full px-3 ">command</p>
                 </div>
 
-                <div className="flex md:mx-32">
+                <div className="sm:flex hidden md:mx-32">
                 <p className="border bg-orange-lh text-orange rounded-full px-3 ml-3">Ajah</p>
                 <p className="border bg-orange-lh text-orange rounded-full px-3 ml-3">Sangotedo</p>
                 <p className="border bg-orange-lh text-orange rounded-full px-3 ml-3">Ikotun</p>

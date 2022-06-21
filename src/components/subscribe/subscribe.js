@@ -15,7 +15,7 @@ const suscribe = () => {
       <img src={fruit} alt='fruit' className='md:h-32 h-24 md:w-imw md:ml-fm absolute' />
       <div className='inset-0 absolute bg-gradient-to-r from-orange via-orange  to-light-orng w-screen h-24 md:w-full md:h-32'>
         <div className='flex justify-between items-center mx-12'>
-          <span className='text-white text-sm w-96 md:mt-6 md:text-lg md:w-subw md:h-subh'>Subscribe to Swalo Eats Monthly FoodROUTINE 
+          <span className='text-white  w-[500px] md:mt-6 text-[10px] md:text-lg md:w-subw md:h-subh'>Subscribe to Swalo Eats Monthly FoodROUTINE 
            <br/>for as low as N35,000.00</span>
            <button className='border-4 p-2 mb-2 w-brdw1 border-white rounded-lg text-white text-lg'>Subscribe</button>
         </div>

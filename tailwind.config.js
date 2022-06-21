@@ -34,6 +34,9 @@ module.exports = {
       'card3': 'rgb(255, 199, 41)',
       'white': '#fff'
     },
+    fontFamily: {
+      'poppins': ['Poppins, sans-serif']
+    },
     extend: {
       lineHeight: {
         'lh': '102px'
@@ -93,5 +96,7 @@ module.exports = {
       },
     },
   },
-  plugins: [],
+  plugins: [
+    require('tailwind-scrollbar-hide')
+  ],
 }
