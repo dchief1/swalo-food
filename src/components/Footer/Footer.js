@@ -13,12 +13,12 @@ const Footer = () => {
 
         <>
                 <div className="bg-white max-w-screen  mt-44 ">
-                    <div className="  ">
-                        <h1 className="font-bold text-hero-hd pt-12 w-80 mx-8 text-2xl md:text-3xl 
-                        mt-16 md:ml-txm md:w-mdw">Our Top Customers Work In:</h1>
+                    <div className=" grid place-items-center ">
+                        <h1 className="font-bold text-hero-hd pt-12 sm:w-[260px]  mx-8 text-2xl md:text-3xl 
+                        mt-16 text-center md:w-mdw">Our Top Customers Work In:</h1>
                     </div>
 
-                    <div className="flex gap-8 flex-col md:flex-col lg:flex-row justify-between px-20 md:px-8 py-16">
+                    <div className="flex gap-8 flex-col md:flex-col items-center lg:flex-row justify-between px-20 md:px-8 py-16">
 
                             <img className='w-52 md:w-60 md:h-20' src={afri} alt='screen' />
                             <img className='w-52 md:w-32 md:h-24' src={mavin} alt='screen' />
@@ -30,7 +30,7 @@ const Footer = () => {
                 </div>
 
                 {/** second part */}
-                <div className="py-16  mx-4 md:px-32">
+                <div className="py-16  mx-4 lg:px-32">
 
                     <h1 className="text-orange text-center font-bold text-xl md:text-3xl mb-4">Explore delivery in Lagos</h1>
 
@@ -52,7 +52,7 @@ const Footer = () => {
 
 
 
-                  <div className='sm:flex justify-between hidden md:mx-32 mb-2'>
+                  <div className='md:flex justify-between md:text-[10px] hidden md:mx-32 mb-2'>
                     <p className="border bg-orange-lh text-orange rounded-full px-3 ">lekki</p>
                     <p className="border bg-orange-lh text-orange rounded-full px-3 ">Ikeja</p>
                     <p className="border bg-orange-lh text-orange rounded-full px-3 ">Egbeda</p>
@@ -62,7 +62,7 @@ const Footer = () => {
                     <p className="border bg-orange-lh text-orange rounded-full px-3 ">surulere</p>
                   </div>
 
-                  <div className='sm:flex hidden justify-between md:mx-32 mb-2'>
+                  <div className='md:flex hidden justify-between md:text-[10px] md:mx-32 mb-2'>
                   <p className="border bg-orange-lh text-orange rounded-full px-3 ">MaryLand</p>
                   <p className="border bg-orange-lh text-orange rounded-full px-3 ">Festac</p>
                   <p className="border bg-orange-lh text-orange rounded-full px-3 ">Apapa</p>
@@ -72,7 +72,7 @@ const Footer = () => {
                   <p className="border bg-orange-lh text-orange rounded-full px-3 ">command</p>
                 </div>
 
-                <div className="sm:flex hidden md:mx-32">
+                <div className="md:flex hidden md:text-[10px] md:mx-32">
                 <p className="border bg-orange-lh text-orange rounded-full px-3 ml-3">Ajah</p>
                 <p className="border bg-orange-lh text-orange rounded-full px-3 ml-3">Sangotedo</p>
                 <p className="border bg-orange-lh text-orange rounded-full px-3 ml-3">Ikotun</p>

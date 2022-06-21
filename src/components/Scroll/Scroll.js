@@ -11,8 +11,8 @@ const Scroll = () => {
           Fastest selling Meals on Swalo Eats this Month</span>
 
       {/*<<<<<<<<<<<<< First Card Section <<<<<<<<<<<<<<<<<<<<*/}
-        <div id='slider' className='flex items-center mx-12 gap-4 md:mx-20 mt-12 justify-between overflow-x-scroll
-        scroll whitespace-nowrap scrollbar-hide w-[300px] md:w-[1120px] md:scroll-hidden scroll-smooth'>
+        <div id='slider' className='flex items-center mx-12 gap-4 lg:mx-20 mt-12 justify-between overflow-x-scroll
+        scroll whitespace-nowrap scrollbar-hide w-[300px] md:w-[700px] lg:w-[1120px] lg:scroll-hidden scroll-smooth'>
 
           <div className='bg-white w-72 h-ic-fd mb-20 cursor-pointer rounded-md shadow-xl'>
                 <FcLike className=' ml-60 mr-4 mt-4' />
@@ -51,8 +51,8 @@ const Scroll = () => {
       {/**<<<<<<<<<<<<<<<< End of First Card Section <<<<<<<<<<<<<<<<<<< */}
 
       {/**<<<<<<<<<<<<<<<<<<<<<<<<<<<< Second Card Section Begins <<<<<<<<<<<<<<<<< */}
-      <div className='flex items-center md:mx-20 gap-4 mx-12 justify-between overflow-x-scroll
-      scroll whitespace-nowrap w-[300px] scrollbar-hide md:w-[1120px] scroll-smooth'>
+      <div className='flex items-center lg:mx-20 gap-4 mx-12 justify-between overflow-x-scroll
+      scroll whitespace-nowrap w-[300px] md:w-[700px] lg:scroll-hidden scrollbar-hide lg:w-[1120px] scroll-smooth'>
 
           <div className='bg-white w-72 h-ic-fd cursor-pointer mb-20 rounded-md shadow-xl'>
                 <FcLike className=' ml-60 mr-4 mt-4' />

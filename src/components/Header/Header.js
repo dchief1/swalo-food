@@ -25,7 +25,7 @@ const Header = () => {
     <div className='grid place-items-center h-full max-w-screen bg-lightbg '>
         <Navbar />
 
-        <div className='font-bold text-hero-head text-xl md:text-6xl md:leading-lh'>
+        <div className='font-bold text-hero-head text-xl lg:text-6xl md:leading-[50px] md:text-3xl lg:leading-lh'>
           {
           show===0&& <h1 >Order your Meal from 
           <br/> the <span className='bg-yell-brd'>Cloud in 30</span>mins</h1> 
@@ -41,12 +41,12 @@ const Header = () => {
 
         </div>
 
-        <span className='mb-8 text-sm w-[260px] mt-2 md:mt-0 md:w-[420px]  text-hero-prg'>
+        <span className='mb-8 text-sm w-[260px] mt-2 md:mt-0 md:w-[520px] lg-w-[800px] text-center text-hero-prg'>
           Nigeria's leading Cloud based Kitchen powered by Technology
           <br />Get your Special Meal Treat in 24hours for "The Special One"
         </span>
 
-        <button className="border p-3 rounded-md w-40 md:w-52 bg-orange mt-4 md:mt-6 mb-40  text-white">Place your order</button>
+        <button className="border p-3 rounded-md w-40 lg:w-52 bg-orange mt-4 lg:mt-6 mb-40  text-white">Place your order</button>
         
     </div>
   )
