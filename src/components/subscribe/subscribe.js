@@ -4,8 +4,6 @@ import vector1 from '../../assets/images/Vector1.png'
 import vector2 from '../../assets/images/Vector2.png'
 import vector3 from '../../assets/images/Vector3.png'
 import vector4 from '../../assets/images/Vector4.png'
-import vector2a from '../../assets/images/Vector2a.png'
-import vector3a from '../../assets/images/Vector3a.png'
 
 const suscribe = () => {
   return (
