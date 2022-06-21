@@ -30,12 +30,12 @@ const Footer = () => {
                 </div>
 
                 {/** second part */}
-                <div className="py-16  mx-4 lg:px-32">
+                <div className="py-16  mx-4 md:mx-6 lg:px-32">
 
                     <h1 className="text-orange text-center font-bold text-xl md:text-3xl mb-4">Explore delivery in Lagos</h1>
 
                  
-                    <div className="flex  mb-6">
+                    <div className="flex justify-center mb-6">
                     <input
                     onChange=''
                     id="search"
@@ -43,16 +43,16 @@ const Footer = () => {
                     type="search"
                     autoComplete="email"
                     required 
-                    className='md:w-5/6 w-[420px] h-8 md:h-10 md:ml-4 p-6 border rounded-lg'
+                    className='md:w-5/6 w-[380px] max-w-screen outline-none h-8 md:h-10 lg:ml-4 p-6 border rounded-lg'
                     placeholder="search anywhere in lagos"
                 />
 
-                <button className="border hidden md:block  p-3 rounded-lg bg-orange w-38 ml-4 md:w-32 text-white">Explore</button>
+                <button className="border hidden md:block px-16 ml-8 p-3 rounded-lg bg-orange  text-white">Explore</button>
              </div>
 
+             <button className="border md:hidden flex justify-center mx-auto p-3 rounded-lg bg-orange w-[220px]   text-white">Explore</button>
 
-
-                  <div className='md:flex justify-between md:text-[10px] hidden md:mx-32 mb-2'>
+                  <div className='md:flex justify-between md:text-[10px] lg:text-[15px] hidden md:mx-32 mb-2'>
                     <p className="border bg-orange-lh text-orange rounded-full px-3 ">lekki</p>
                     <p className="border bg-orange-lh text-orange rounded-full px-3 ">Ikeja</p>
                     <p className="border bg-orange-lh text-orange rounded-full px-3 ">Egbeda</p>
@@ -62,7 +62,7 @@ const Footer = () => {
                     <p className="border bg-orange-lh text-orange rounded-full px-3 ">surulere</p>
                   </div>
 
-                  <div className='md:flex hidden justify-between md:text-[10px] md:mx-32 mb-2'>
+                  <div className='md:flex hidden justify-between md:text-[10px] lg:text-[15px] md:mx-32 mb-2'>
                   <p className="border bg-orange-lh text-orange rounded-full px-3 ">MaryLand</p>
                   <p className="border bg-orange-lh text-orange rounded-full px-3 ">Festac</p>
                   <p className="border bg-orange-lh text-orange rounded-full px-3 ">Apapa</p>
@@ -72,7 +72,7 @@ const Footer = () => {
                   <p className="border bg-orange-lh text-orange rounded-full px-3 ">command</p>
                 </div>
 
-                <div className="md:flex hidden md:text-[10px] md:mx-32">
+                <div className="md:flex hidden md:text-[10px] lg:text-[15px] md:mx-32">
                 <p className="border bg-orange-lh text-orange rounded-full px-3 ml-3">Ajah</p>
                 <p className="border bg-orange-lh text-orange rounded-full px-3 ml-3">Sangotedo</p>
                 <p className="border bg-orange-lh text-orange rounded-full px-3 ml-3">Ikotun</p>
@@ -85,8 +85,8 @@ const Footer = () => {
                 {/** third part */}
 
               <div className="bg-white ">
-                <div className="flex sm:flex-col flex-col lg:flex-row justify-between py-4 md:py-16 px-6 md:mx-32">
-                    <div>
+                <div className="flex md:flex-row flex-col lg:flex-row justify-between py-4 md:py-12 lg:py-16 px-6 md:px-12 lg:mx-32">
+                    <div >
                     <img className='md:-ml-8 grid place-items-center w-44  md:w-64' src={swalo} alt='screen' />
 
 
@@ -105,10 +105,10 @@ const Footer = () => {
                     </div>
                     </div>
 
-                    <div className="flex flex-col ml-8 md:flex-col lg:flex-row">
+                    <div className="flex flex-col ml-8 md:flex-row lg:flex-row">
 
                         <div className="md:mr-8">
-                        <p className="mb-6 text-lg">Companies</p>
+                        <p className="mb-2 md:mb-6 text-lg">Companies</p>
                         <ul>
                         <li><a href="/" className="text-sm">About us</a></li>
                         <li><a href="/" className="text-sm">Pricing</a></li>
@@ -116,8 +116,8 @@ const Footer = () => {
                         </ul>   
                         </div> 
 
-                        <div className="mr-8">
-                        <p className="mb-6 text-lg">Careers</p>
+                        <div className="md:mr-8">
+                        <p className="mb-2 md:mb-6 mt-6 md:mt-0 text-lg">Careers</p>
                         <ul>
                         <li><a href="/" className="text-sm">Delivery</a></li>
                         <li><a href="/" className="text-sm">Chef</a></li>
@@ -127,7 +127,7 @@ const Footer = () => {
 
 
                         <div>
-                        <p className="mb-6 text-lg">Other</p>
+                        <p className="mb-2 md:mb-6 mt-6 md:mt-0 text-lg">Other</p>
                         <ul>
                         <li><a href="/" className="text-sm">FAQS</a></li>
                         <li><a href="/" className="text-sm">Blog</a></li>

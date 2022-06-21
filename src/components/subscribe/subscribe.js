@@ -12,12 +12,12 @@ const suscribe = () => {
     <div className=' max-w-screen h-full bg-white'>
 
     <div className='relative'>
-      <img src={fruit} alt='fruit' className='md:h-32 ml-[90px] md:ml-[277px] w-[325px] md:w-[540px] h-24 lg:w-imw lg:ml-fm absolute' />
-      <div className='inset-0 absolute bg-gradient-to-r from-orange via-orange  to-light-orng w-screen h-24 md:w-full md:h-32'>
+      <img src={fruit} alt='fruit' className='md:h-32  md:ml-[277px] w-screen md:w-[540px] h-24 lg:w-imw lg:ml-fm absolute' />
+      <div className='inset-0 absolute bg-gradient-to-r from-orange via-orange  to-light-orng max-w-screen h-24 md:w-full md:h-32'>
         <div className='flex justify-between items-center mx-4 lg:mx-12 my-4'>
-          <span className='text-white   my-6 lg:mt-6 text-[10px] md:text-lg md:w-subw md:h-subh'>Subscribe to Swalo Eats Monthly FoodROUTINE 
+          <span className='text-white   my-auto lg:mt-6 text-[10px] md:text-lg md:w-subw md:h-subh'>Subscribe to Swalo Eats Monthly FoodROUTINE 
            <br/>for as low as N35,000.00</span>
-           <button className='border-4 p-2 mb-2 w-[130px] md:w-brdw1 md:mb-8 border-white rounded-lg text-white text-lg'>Subscribe</button>
+           <button className='border-4 p-2 mt-2 w-[130px] md:w-brdw1 md:mb-8 border-white rounded-lg text-white text-lg'>Subscribe</button>
         </div>
       </div>
 
