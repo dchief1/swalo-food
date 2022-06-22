@@ -5,7 +5,7 @@ import food from '../../assets/images/food.png'
 
 const Content = () => {
   return (
-    <div className='mb-2 max-w-screen  bg-white' >
+    <div className='mb-2 max-w-full  bg-white' >
       <div className='lg:mt-[120px] md:mt-[60px] mt-[20px] grid place-items-center relative'>
         <img className='z-10  w-[148px] h-[62px] mr-[100px] md:mr-[150px]  lg:mr-[200px] md:w-[420px] md:h-[170px] lg:w-imgw lg:h-imgh absolute  ' src={log1} alt='screen' />
         <img className=' ml-[80px] md:ml-[120px]  lg:ml-[280px] w-[148px] h-[62px] md:w-[420px] md:h-[170px]  lg:w-imgw lg:h-imgh absolute mt-[28px] md:mt-[90px] lg:mt-[150px] ' src={log2} alt='screen' />

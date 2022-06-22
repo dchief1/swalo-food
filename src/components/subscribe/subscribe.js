@@ -7,7 +7,7 @@ import vector4 from '../../assets/images/Vector4.png'
 
 const suscribe = () => {
   return (
-    <div className=' max-w-screen h-full bg-white'>
+    <div className=' max-w-full h-full bg-white'>
 
     <div className='relative'>
       <img src={fruit} alt='fruit' className='md:h-32  md:ml-[277px] w-screen md:w-[540px] h-24 lg:w-imw lg:ml-fm absolute' />

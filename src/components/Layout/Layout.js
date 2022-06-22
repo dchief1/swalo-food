@@ -9,7 +9,7 @@ import Card from '../Card/Card'
 
 const Layout = () => {
   return (
-    <div className='max-w-screen'>
+    <div className='max-w-full'>
         <Header />
         <div className='bg-pagebg'>
           <Content />

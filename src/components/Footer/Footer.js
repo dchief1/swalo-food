@@ -12,7 +12,7 @@ const Footer = () => {
     return (
 
         <>
-                <div className="bg-white max-w-screen  mt-44 ">
+                <div className="bg-white max-w-full  mt-44 ">
                     <div className=" grid place-items-center ">
                         <h1 className="font-bold text-hero-hd pt-12 sm:w-[260px]  mx-8 text-2xl md:text-3xl 
                         mt-16 text-center md:w-mdw">Our Top Customers Work In:</h1>
