@@ -22,7 +22,7 @@ const Header = () => {
   
 
   return (
-    <div className='grid place-items-center h-full max-w-full bg-lightbg '>
+    <div className='grid place-items-center h-full  bg-lightbg '>
         <Navbar />
 
         <div className='font-bold text-hero-head text-xl lg:text-6xl md:leading-[50px] md:text-3xl lg:leading-lh'>

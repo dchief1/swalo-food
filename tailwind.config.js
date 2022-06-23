@@ -71,7 +71,7 @@ module.exports = {
         'ah1': '79px',
         'ah2': '59px',
         'cardh': '375px',
-        'ic-card': '304px',
+        'ic-card': '350px',
         'ic-fd': '314px',
         'txth': '159px',
         'subh': '102px',

@@ -5,7 +5,7 @@ import card3 from '../../assets/images/card3.png'
 
 const Card = () => {
   return (
-    <div className=' max-w-full mt-16 -mb-20'>
+    <div className='  mt-16 -mb-20'>
         <span className='md:text-3xl text-2xl mx-8 text-hero-head font-medium md:ml-16'>
              Lets Collaborate, It works!
         </span>

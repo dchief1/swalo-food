@@ -5,7 +5,7 @@ import { FcLike } from "react-icons/fc";
 
 const Scroll = () => {
   return (
-    <div className='max-w-full  h-full mt-16'>
+    <div className=' '>
         
           <span className='text-hero-head flex text-center md:text-2xl  font-medium md:ml-20'>
           Fastest selling Meals on Swalo Eats this Month</span>
