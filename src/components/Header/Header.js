@@ -27,16 +27,16 @@ const Header = () => {
 
         <div className='font-bold text-hero-head text-[27px] leading-[50px] lg:text-6xl md:leading-[50px] md:text-3xl lg:leading-lh'>
           {
-          show===0&& <h1 >Order your Meal from 
-          <br/> the <span className='bg-yell-brd'>Cloud in 30</span>mins</h1> 
+          show===0&& <h1 >Order Your Meal From 
+          <br/> The <span className='bg-yell-brd'>Cloud In 30</span>mins</h1> 
           }
           {
-          show===1&& <h1 >Enjoy delicious and 
-          <br/> spicy <span className='spin-text bg-yell-brd'></span> <span className='bulk'>in bulk</span> </h1> 
+          show===1&& <h1 >Enjoy Delicious And 
+          <br/> Spicy <span className='spin-text bg-yell-brd'></span> <span className='bulk'>in bulk</span> </h1> 
           }
           {
-          show===2&& <h1 >Automated bulk lunch meals
-          <br /> for employee and business</h1> 
+          show===2&& <h1 >Automated Bulk Lunch Meals
+          <br /> For Employee And Business</h1> 
           }
 
         </div>
@@ -45,7 +45,12 @@ const Header = () => {
           Nigeria's leading Cloud based Kitchen powered by Technology
         </span>
 
-        <button className="border p-3 rounded-md w-40 lg:w-52 bg-orange mt-4 lg:mt-6 md:mb-40 mb-16 text-white">Place your order</button>
+        <div className='md:flex hidden justify-between items-center gap-16'>
+          <button className="border p-3 rounded-md w-40 lg:w-52 bg-orange mt-4 lg:mt-6 md:mb-40 mb-16 text-white">Place your order</button>
+          <button className="border p-3 rounded-md w-40 lg:w-52 bg-orange mt-4 lg:mt-6 md:mb-40 mb-16 text-white">Request A Demo</button>
+        </div>
+        
+        <button className="border md:hidden p-3 rounded-md w-40 lg:w-52 bg-orange mt-4 lg:mt-6 md:mb-40 mb-16 text-white">Place your order</button>
         
     </div>
   )

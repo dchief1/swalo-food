@@ -207,7 +207,7 @@ const Content = () => {
 
         <div className='flex flex-col lg:flex-row  justify-between md:mx-28 items-center mt-12'>
         {/**<<<<<<<<<<<<<<<<<<<<<<<<<< First Card Begins >>>>>>>>>>>>>>>>>>>>>>> */}
-            <div className='bg-white w-72 h-96 mb-6 rounded-2xl grid place-items-center'>
+            <div className='bg-white w-72 h-[400px] mb-6 rounded-2xl grid place-items-center'>
                 <img src={card1} alt='card' className='w-68 h-44 mt-2' />
                 <h1 className='text-black text-lg w-60 mt-2 font-semibold'>
                     Are  you a Chef or Caterer?
@@ -223,7 +223,7 @@ const Content = () => {
         {/**<<<<<<<<<<<<<<<<<<<<<<<<<< First Card Ends >>>>>>>>>>>>>>>>>>>>>>> */}
 
         {/**<<<<<<<<<<<<<<<<<<<<<<<<<< Second Card Begins >>>>>>>>>>>>>>>>>>>>>>> */}
-            <div className='bg-white w-72 h-96 rounded-2xl mb-6 grid place-items-center'>
+            <div className='bg-white w-72 h-[400px] rounded-2xl mb-6 grid place-items-center'>
                 <img src={card2} alt='card' className='w-68 h-44 mt-2' />
                 <h1 className='text-black text-lg w-60 mt-2 font-semibold'>
                     Are you a Rider or a Bike  Hailing Company? 
@@ -239,7 +239,7 @@ const Content = () => {
         {/**<<<<<<<<<<<<<<<<<<<<<<<<<< Second Card Ends >>>>>>>>>>>>>>>>>>>>>>> */}
 
         {/**<<<<<<<<<<<<<<<<<<<<<<<<<< Third Card Begins >>>>>>>>>>>>>>>>>>>>>>> */}
-            <div className='bg-white  w-72 h-96 rounded-2xl grid place-items-center'>
+            <div className='bg-white  w-72 h-[400px] rounded-2xl grid place-items-center'>
                 <img src={card3} alt='card' className='w-68 h-44 mt-2' />
                 <h1 className='text-black text-lg w-60 mt-2 font-semibold'>
                     Monetize your Kitchens with Swalo Eats?

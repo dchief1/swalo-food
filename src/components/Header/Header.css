@@ -3,11 +3,11 @@
     animation: spin 6s linear infinite;
 }
 @keyframes spin {
-    0% {content: "food";}
-    30% {content: "amala";}
-    50% {content: "egwusi";}
-    70% {content: "vegetable";}
-    100% {content: "okazi";}
+    0% {content: "Food";}
+    30% {content: "Okra";}
+    50% {content: "Egwusi";}
+    70% {content: "Vegetable";}
+    100% {content: "Okazi";}
     
 }
 /* .bulk {
