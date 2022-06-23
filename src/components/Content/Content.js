@@ -33,7 +33,7 @@ const Content = () => {
       </div>
 
       <div className='grid place-items-center  md:mx-20 md:-mt-16 lg:-mt-32'>
-        <h1 className='md:text-2xl text-xl font-semibold text-sec-parg'>why swallow Eats?</h1>
+        <h1 className='md:text-2xl text-xl font-semibold text-sec-parg'>why swallow Eats And Me?</h1>
         <span className='border-2 mt-2 border-orange w-brdw '></span>
         <p className='md:w-txtw w-[320px] md:h-txth text-center text-hero-head mt-6'>We are a Kitchen-as-a-Service company helping you
         get quality and premium homemade meal from our chains 
