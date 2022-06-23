@@ -19,7 +19,7 @@ import naija from '../../assets/images/naija.png';
 
 const Content = () => {
   return (
-    <div className='w-full bg-pagebg'>
+    <div className='w-full  bg-pagebg'>
     <div className='mb-2 bg-white' >
       <div className='lg:mt-[120px] md:mt-[60px] mt-[20px] grid place-items-center relative'>
         <img className='z-10  w-[148px] h-[62px] mr-[100px] md:mr-[150px]  lg:mr-[200px] md:w-[420px] md:h-[170px] lg:w-imgw lg:h-imgh absolute  ' src={log1} alt='screen' />

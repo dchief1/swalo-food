@@ -3,32 +3,19 @@
     animation: spin 6s linear infinite;
 }
 @keyframes spin {
-    0% {content: "Food";}
+    0% {content: "Soup";}
     30% {content: "Okra";}
     50% {content: "Egwusi";}
     70% {content: "Vegetable";}
     100% {content: "Okazi";}
     
 }
-/* .bulk {
-    animation: hideAnimation 0s ease-in 8s;
-    animation-fill-mode: forwards;
+.play:after {
+    content: "";
+    animation: play 6s linear infinite;
 }
-@keyframes hideAnimation {
-    to{
-        visibility: hidden;
-        width: 0;
-        height: 0;
-    }
-} */
-/* .bulk {
-    animation: spin2 6s linear infinite ;
-    opacity: 0;
+@keyframes play {
+    0% {content: "Automated Bulk Lunch Meals";}
+    100% {content: "Over 100+ Nutritious Meals";}
+    
 }
-@keyframes spin2 {
-    0% {opacity: 1;}
-    30% {opacity: 1;}
-    50% {opacity: 1;}
-    70% {opacity: 1;}
-    90% {opacity: 0;}
-} */
