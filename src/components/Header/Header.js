@@ -35,8 +35,8 @@ const Header = () => {
           <br/> Spicy <span className='spin-text bg-yell-brd'></span> in bulk </h1> 
           }
           {
-          show===2&& <h1 className='text-[22px] leading-[50px] lg:text-6xl md:leading-[50px] md:text-3xl lg:leading-lh'> <span className='play'></span>
-          <br /> For Employee & Business</h1> 
+          show===2&& <h1 className='text-[22px] leading-[50px] lg:text-6xl md:leading-[50px] md:text-3xl lg:leading-lh'> <span className='play bg-yell-brd'></span>
+          <br /> For Employees & Businesses</h1> 
           }
 
         </div>

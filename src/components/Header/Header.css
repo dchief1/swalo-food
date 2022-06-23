@@ -4,9 +4,10 @@
 }
 @keyframes spin {
     0% {content: "Soup";}
-    30% {content: "Okra";}
-    50% {content: "Egwusi";}
-    70% {content: "Vegetable";}
+    20% {content: "Afang";}
+    40% {content: "Egwusi";}
+    60% {content: "Efo Riro";}
+    80% {content: "Edikang ikong";}
     100% {content: "Okazi";}
     
 }
