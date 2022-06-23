@@ -28,7 +28,7 @@ const Navbar = () => {
         {active ? <CgClose /> : <CgMenuLeft />}
       </div>
 
-    <div className={active ? 'fixed left-0 top-0 w-screen  z-50 h-full border-r bg-[#ffffff] border-r-[#ffe5d1]' : 'ease-in-out duration-500 fixed left-[-100%]'}>
+    <div className={active ? 'fixed left-0 top-0 w-full z-50 h-full bg-[#ffffff]' : 'ease-in-out duration-500 fixed left-[-100%]'}>
       <img className='cursor-pointer w-44 mx-auto' src={swalo} alt='screen' />
       <ul className='p-4 '>
         <li className='pb-4 border-b border-orange'><Link to='/'>Home</Link></li>

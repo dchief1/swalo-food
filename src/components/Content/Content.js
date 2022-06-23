@@ -33,9 +33,9 @@ const Content = () => {
       </div>
 
       <div className='grid place-items-center  md:mx-20 md:-mt-16 lg:-mt-32'>
-        <h1 className='md:text-2xl text-xl font-semibold text-sec-parg'>why swallow Eats And Me?</h1>
+        <h1 className='md:text-2xl text-xl font-semibold text-sec-parg'>why swallow Eats?</h1>
         <span className='border-2 mt-2 border-orange w-brdw '></span>
-        <p className='md:w-txtw w-[320px] md:h-txth text-center text-hero-head mt-6'>We are a Kitchen-as-a-Service company helping you
+        <p className='md:w-txtw w-[320px] md:h-txth text-center mb-[70px] text-hero-head mt-6'>We are a Kitchen-as-a-Service company helping you
         get quality and premium homemade meal from our chains 
         of kitchens and proffesional Chefs hereby meeting your taste 
         request and guarantee your happiness. 
@@ -46,7 +46,7 @@ const Content = () => {
   {/**<<<<<<<<<<<<<<<<< Scroll Cards >>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */} 
      <div className=' '>
         
-     <span className='text-hero-head flex  text-center text-2xl md:text-3xl font-medium md:ml-20'>
+     <span className='text-hero-head flex  text-center text-2xl sm:text-3xl md:text-3xl font-medium md:ml-20'>
      Fastest selling Meals on Swalo Eats this Month</span>
 
  {/*<<<<<<<<<<<<< First Card Section <<<<<<<<<<<<<<<<<<<<*/}
@@ -132,7 +132,7 @@ const Content = () => {
 
 <div className='relative'>
   <img src={fruit} alt='fruit' className='md:h-32  md:ml-[277px] w-screen md:w-[540px] h-24 lg:w-imw lg:ml-fm absolute' />
-  <div className='inset-0 absolute bg-gradient-to-r from-orange via-orange  to-light-orng max-w-screen h-24 md:w-full md:h-32'>
+  <div className='inset-0 absolute bg-gradient-to-r from-orange via-orange  to-light-orng  h-24 md:w-full md:h-32'>
     <div className='flex justify-between items-center mx-4 lg:mx-12 my-4'>
       <span className='text-white   my-auto lg:mt-6 text-[10px] md:text-lg md:w-subw md:h-subh'>Subscribe to Swalo Eats Monthly FoodROUTINE 
        <br/>for as low as N35,000.00</span>
@@ -142,7 +142,7 @@ const Content = () => {
 
   </div>
 
-  <div className='flex-col lg:flex-row pt-52 pb-20 flex justify-between items-center mx-16'>
+  <div className='flex-col lg:flex-row pt-[178px] md:pt-48 pb-20 flex justify-between items-center mx-16'>
 {/**<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< First Card Begins >>>>>>>>>>>>>>>>>>>>>>>>>> */}
     <div className='bg-ic1bg p-3 w-64 h-ic-card mb-6 grid place-items-center rounded-md shadow-xl'>
       <img src={vector1} alt='vector' className='h-20  w-20' />
@@ -200,12 +200,12 @@ const Content = () => {
 </div>
 
         {/**<<<<<<<<<<<<<<<<<<<<<<< Main Card >>>>>>>>>>>>>>>>>>>>>>>>> */}
-        <div className='  mt-16 -mb-20'>
-        <span className='md:text-3xl text-2xl mx-8 text-hero-head font-medium md:ml-16'>
+        <div className=' mt-6  -mb-20'>
+        <span className='md:text-3xl text-2xl mx-6 text-hero-head font-medium md:ml-16'>
              Lets Collaborate, It works!
         </span>
 
-        <div className='flex flex-col lg:flex-row  justify-between md:mx-28 items-center mt-20'>
+        <div className='flex flex-col lg:flex-row  justify-between md:mx-28 items-center mt-12'>
         {/**<<<<<<<<<<<<<<<<<<<<<<<<<< First Card Begins >>>>>>>>>>>>>>>>>>>>>>> */}
             <div className='bg-white w-72 h-96 mb-6 rounded-2xl grid place-items-center'>
                 <img src={card1} alt='card' className='w-68 h-44 mt-2' />
