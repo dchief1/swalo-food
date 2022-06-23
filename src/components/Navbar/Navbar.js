@@ -35,6 +35,7 @@ const Navbar = () => {
         <li className='pb-4 border-b border-orange'><Link to='/'>Swalo Eats</Link></li>
         <li className='pb-4 border-b border-orange'><Link to='/'>Food Routine</Link></li>
         <li className='pb-4 '><Link to='/'>Pricing</Link></li>
+        <button className="border p-3 rounded-md w-60 lg:w-52 bg-orange mt-4 lg:mt-6 md:mb-40 mb-16 text-white">Request A Demo</button>
       </ul>
 
       <div onClick={showMenu} className='text-3xl absolute block right-8 top-6 cursor-pointer md:hidden'>
