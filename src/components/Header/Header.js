@@ -25,7 +25,7 @@ const Header = () => {
     <div className='grid place-items-center h-full max-w-full bg-lightbg '>
         <Navbar />
 
-        <div className='font-bold text-hero-head text-2xl lg:text-6xl md:leading-[50px] md:text-3xl lg:leading-lh'>
+        <div className='font-bold text-hero-head text-[27px] leading-[50px] lg:text-6xl md:leading-[50px] md:text-3xl lg:leading-lh'>
           {
           show===0&& <h1 >Order your Meal from 
           <br/> the <span className='bg-yell-brd'>Cloud in 30</span>mins</h1> 
