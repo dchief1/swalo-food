@@ -35,7 +35,7 @@ const Navbar = () => {
         <li className='pb-4 border-b border-orange'><Link to='/'>Home</Link></li>
         <li className='pb-4 border-b border-orange'><Link to='/'>Swalo Eats For Business</Link></li>
         <li className='pb-4 border-b border-orange'><Link to='/'>Food Routine</Link></li>
-        <li className='pb-4 border-b border-orange'><Link to='/'>Login</Link></li>
+        <li className='pb-4 border-b border-orange'><a href='https://swaloeats.africa.restaurant/'>Login</a></li>
         <li className='pb-4 '><Link to='/'>Pricing</Link></li>
         <button className="border p-3 rounded-md w-60 lg:w-52 bg-orange mt-4  mb-16 text-white">Request A Demo</button>
       </ul>
