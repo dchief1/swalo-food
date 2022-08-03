@@ -17,6 +17,7 @@ import mavin from '../../assets/images/mavin.png';
 import piggy from '../../assets/images/piggy.png';
 import naija from '../../assets/images/naija.png';
 
+
 const Content = () => {
   return (
     <div className='w-full  bg-pagebg'>
@@ -91,7 +92,8 @@ const Content = () => {
 
  {/**<<<<<<<<<<<<<<<<<<<<<<<<<<<< Second Card Section Begins <<<<<<<<<<<<<<<<< */}
  <div className='flex items-center lg:mx-20 gap-4 mx-auto justify-between overflow-x-scroll
- scroll whitespace-nowrap w-[300px] sm:w-[600px] md:w-[700px] lg:scroll-hidden scrollbar-hide lg:w-[1120px] scroll-smooth'>
+ scroll whitespace-nowrap w-[300px] sm:w-[600px] md:w-[700px] lg:scroll-hidden scrollbar-hide 
+ lg:w-[1120px] scroll-smooth'>
 
      <div className='bg-white w-72 h-ic-fd cursor-pointer mb-20 rounded-md shadow-xl'>
            <FcLike className=' ml-60 mr-4 mt-4' />

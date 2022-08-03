@@ -21,7 +21,7 @@ const Navbar = () => {
         <li className='text-xl text-navbg hover:text-navhover duration-500'><Link to='/'>Home</Link></li>
         <li className='text-xl text-navbg hover:text-navhover duration-500'><Link to='/'>Swalo Eats For Business</Link></li>
         <li className='text-xl text-navbg hover:text-navhover duration-500'><Link to='/'>Food Routine</Link></li>
-        <li className='text-xl text-navbg hover:text-navhover duration-500'><Link to='/'>Login</Link></li>
+        <li className='text-xl text-navbg hover:text-navhover duration-500'><a href='https://swaloeats.africa.restaurant/'>Login</a></li>
         <li className='text-xl text-navbg hover:text-navhover duration-500'><Link to='/'>Pricing</Link></li>
       </ul>
 

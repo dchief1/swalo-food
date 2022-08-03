@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import Navbar from '../Navbar/Navbar'
 import '../Header/Header.css'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   const [ show, setShow] = useState(0)
@@ -46,11 +47,15 @@ const Header = () => {
         </span>
 
         <div className='md:flex hidden justify-between items-center gap-16'>
-          <button className="border p-3 rounded-md w-40 lg:w-52 bg-orange mt-4 lg:mt-6 md:mb-40 mb-16 text-white">Place your order</button>
+          <a href='https://swaloeats.africa.restaurant/' >
+            <button className="border p-3 rounded-md w-40 lg:w-52 bg-orange mt-4 lg:mt-6 md:mb-40 mb-16 text-white">Place your order</button>
+          </a>
           <button className="border p-3 rounded-md w-40 lg:w-52 bg-orange mt-4 lg:mt-6 md:mb-40 mb-16 text-white">Request A Demo</button>
         </div>
         
-        <button className="border md:hidden p-3 rounded-md w-40 lg:w-52 bg-orange mt-4 lg:mt-6 md:mb-40 mb-16 text-white">Place your order</button>
+        <a href='https://swaloeats.africa.restaurant/' >
+          <button className="border md:hidden p-3 rounded-md w-40 lg:w-52 bg-orange mt-4 lg:mt-6 md:mb-40 mb-16 text-white">Place your order</button>
+        </a>
         
     </div>
   )
